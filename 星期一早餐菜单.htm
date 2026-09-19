@@ -1,0 +1,1183 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:115%;
+	font-size:10.5pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-GB style='word-wrap:break-word;text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;!DOCTYPE
+html&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;html
+lang=&quot;zh-CN&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;head&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;meta
+charset=&quot;UTF-8&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;meta
+name=&quot;viewport&quot; content=&quot;width=device-width,
+initial-scale=1.0&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;title&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#23478;&#24237;&#20581;&#24247;&#26089;&#39184;&#28857;&#33756;&#21333;&#65288;&#22686;&#32908;&#20248;&#21270;&#29256;&#65289;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/title&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;style&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+* { box-sizing: border-box; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+body { margin:0; padding:16px; font-family: -apple-system, BlinkMacSystemFont,
+&quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif;
+background:#f5f7f6; color:#24332b; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+.container { max-width: 720px; margin:0 auto; background:#fff;
+border-radius:16px; padding:18px; box-shadow:0 4px 18px rgba(0,0,0,.06); }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+h1 { font-size:22px; margin:0 0 6px; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+.sub { color:#6b7a72; font-size:14px; margin:0 0 16px; line-height:1.5; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+h2 { font-size:16px; margin:18px 0 8px; padding-bottom:6px; border-bottom:1px
+solid #e8eee9; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+.item { padding:10px 0; border-bottom:1px dashed #edf1ee; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+.item:last-child { border-bottom:none; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+label { display:flex; align-items:flex-start; gap:8px; font-size:15px;
+line-height:1.4; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+input[type=&quot;checkbox&quot;], input[type=&quot;radio&quot;] { width:18px;
+height:18px; margin-top:2px; flex:0 0 auto; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+.food-name { font-weight:600; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+.cal { color:#e67e22; font-size:13px; margin-left:4px; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+small { display:block; color:#7b8a82; font-size:12px; margin-top:2px; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+.name-input { width:100%; padding:10px 12px; border:1px solid #d7e0da;
+border-radius:10px; font-size:15px; margin-bottom:8px; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+.actions { display:flex; gap:10px; margin-top:16px; flex-wrap:wrap; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+button { flex:1; min-width:140px; padding:12px 14px; border:none;
+border-radius:10px; font-size:15px; font-weight:600; cursor:pointer; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+.primary { background:#2e8b57; color:#fff; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+.secondary { background:#eef4f0; color:#2e8b57; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+#result { display:none; margin-top:16px; background:#f4faf6; border:1px solid
+#cfe8d8; border-radius:12px; padding:12px; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+#result h3 { margin:0 0 8px; font-size:16px; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+textarea { width:100%; height:200px; padding:10px; border:1px solid #cfe8d8;
+border-radius:10px; font-size:14px; line-height:1.6; resize:vertical;
+background:#fff; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+.note { margin-top:14px; padding:12px; background:#fff8e6; border-left:4px
+solid #f0b429; border-radius:8px; font-size:13px; color:#6b5b2e;
+line-height:1.8; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+.note strong { color: #b37400; }</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/style&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/head&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;body&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;div
+class=&quot;container&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+&lt;h1&gt;&#127859; </span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#23478;&#24237;&#20581;&#24247;&#26089;&#39184;&#28857;&#33756;&#21333;&#65288;&#22686;&#32908;&#20248;&#21270;&#29256;&#65289;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/h1&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+&lt;p class=&quot;sub&quot;&gt;</span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%;font-family:SimSun'>&#35831;&#21246;&#36873;&#20320;&#24819;&#21507;&#30340;&#12290;&#36873;&#22909;&#21518;&#28857;“&#29983;&#25104;&#25105;&#30340;&#26089;&#39184;&#35746;&#21333;”&#65292;&#20877;&#22797;&#21046;&#21457;&#21040;&#32676;&#37324;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/p&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+&lt;input type=&quot;text&quot; id=&quot;name&quot;
+class=&quot;name-input&quot; placeholder=&quot;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20320;&#30340;&#31216;&#21628;&#65288;&#20363;&#22914;&#65306;&#29240;&#29240;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> / </span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22920;&#22920;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> / </span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#23567;&#26126;&#65289;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+&lt;form id=&quot;breakfastForm&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;h2&gt;&#129385; </span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#34507;&#30333;&#36136;&#31867;&#65288;&#24314;&#35758;&#24517;&#21507;&#65289;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/h2&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;div class=&quot;item&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;input type=&quot;radio&quot; name=&quot;egg&quot; value=&quot;1&quot;
+data-name=&quot;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#40481;&#34507;</span><span lang=EN-US
+style='font-size:17.0pt;line-height:115%'>&quot; data-weight=&quot;1</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20010;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>(50g)&quot;
+data-cal=&quot;72&quot; data-desc=&quot;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20840;&#33829;&#20859;&#34507;&#30333;&#36136;&#65292;&#25239;&#39295;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot; checked&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;span&gt;&lt;span class=&quot;food-name&quot;&gt;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#40481;&#34507;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> 1</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20010;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>
+(50g)&lt;/span&gt;&lt;span class=&quot;cal&quot;&gt;72</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22823;&#21345;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/span&gt;&lt;small&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20840;&#33829;&#20859;&#34507;&#30333;&#36136;&#65292;&#25239;&#39295;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/small&gt;&lt;/span&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;/label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;div class=&quot;item&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;input type=&quot;radio&quot; name=&quot;egg&quot; value=&quot;2&quot;
+data-name=&quot;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#40481;&#34507;</span><span lang=EN-US
+style='font-size:17.0pt;line-height:115%'>&quot; data-weight=&quot;2</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20010;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>(100g)&quot;
+data-cal=&quot;144&quot; data-desc=&quot;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#21452;&#20493;&#34507;&#30333;&#65292;&#26356;&#25179;&#39295;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;span&gt;&lt;span class=&quot;food-name&quot;&gt;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#40481;&#34507;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> 2</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20010;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>
+(100g)&lt;/span&gt;&lt;span class=&quot;cal&quot;&gt;144</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22823;&#21345;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/span&gt;&lt;small&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#21452;&#20493;&#34507;&#30333;&#65292;&#26356;&#25179;&#39295;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/small&gt;&lt;/span&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;/label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;div class=&quot;item&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;input type=&quot;checkbox&quot; class=&quot;food&quot; data-name=&quot;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#29275;&#22902;&#29141;&#40614;&#31909;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot; data-weight=&quot;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#29141;&#40614;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>40g+</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#29275;&#22902;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>350ml&quot;
+data-cal=&quot;270&quot; data-desc=&quot;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20248;&#36136;&#34507;&#30333;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>+</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#33203;&#39135;&#32420;&#32500;&#65292;&#21452;&#37325;&#31283;&#34880;&#31958;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot; checked&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;span&gt;&lt;span class=&quot;food-name&quot;&gt;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#29275;&#22902;&#29141;&#40614;&#31909;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> (</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#29141;&#40614;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>40g + </span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#29275;&#22902;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>350ml)&lt;/span&gt;&lt;span
+class=&quot;cal&quot;&gt;270</span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%;font-family:SimSun'>&#22823;&#21345;</span><span lang=EN-US
+style='font-size:17.0pt;line-height:115%'>&lt;/span&gt;&lt;small&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20248;&#36136;&#34507;&#30333;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>+</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#33203;&#39135;&#32420;&#32500;&#65292;&#21452;&#37325;&#31283;&#34880;&#31958;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/small&gt;&lt;/span&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;/label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;h2&gt;&#129367; </span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#34092;&#33756;&#31867;&#65288;&#19977;&#36873;&#19968;&#65289;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/h2&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;div class=&quot;item&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;input type=&quot;radio&quot; name=&quot;veg&quot; value=&quot;base&quot;
+data-name=&quot;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#22522;&#30784;&#20937;&#25292;&#33756;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot; data-weight=&quot;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34092;&#33756;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>100g+</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#27204;&#27012;&#27833;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>5g&quot;
+data-cal=&quot;70&quot; data-desc=&quot;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34917;&#20805;&#32420;&#32500;&#65292;&#27204;&#27012;&#27833;&#24110;&#21161;&#21560;&#25910;&#33026;&#28342;&#24615;&#32500;&#29983;&#32032;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot; checked&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;span&gt;&lt;span class=&quot;food-name&quot;&gt;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22522;&#30784;&#20937;&#25292;&#33756;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> (100g + </span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#27204;&#27012;&#27833;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>5g)&lt;/span&gt;&lt;span
+class=&quot;cal&quot;&gt;70</span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%;font-family:SimSun'>&#22823;&#21345;</span><span lang=EN-US
+style='font-size:17.0pt;line-height:115%'>&lt;/span&gt;&lt;small&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34917;&#20805;&#32420;&#32500;&#65292;&#27204;&#27012;&#27833;&#24110;&#21161;&#21560;&#25910;&#33026;&#28342;&#24615;&#32500;&#29983;&#32032;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/small&gt;&lt;/span&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;/label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;div class=&quot;item&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;input type=&quot;radio&quot; name=&quot;veg&quot; value=&quot;chicken&quot;
+data-name=&quot;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#20937;&#25292;&#33756;</span><span lang=EN-US
+style='font-size:17.0pt;line-height:115%'>+</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#40481;&#32905;&#19997;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot; data-weight=&quot;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34092;&#33756;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>100g+</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#27204;&#27012;&#27833;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>5g+</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#40481;&#32905;&#19997;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>100g&quot;
+data-cal=&quot;190&quot; data-desc=&quot;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22686;&#32908;&#39318;&#36873;&#65292;&#20302;&#33026;&#39640;&#34507;&#30333;&#65288;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>+22g</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34507;&#30333;&#65289;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;span&gt;&lt;span class=&quot;food-name&quot;&gt;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20937;&#25292;&#33756;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> + </span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#40481;&#32905;&#19997;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> 100g&lt;/span&gt;&lt;span
+class=&quot;cal&quot;&gt;+120</span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%;font-family:SimSun'>&#22823;&#21345;</span><span lang=EN-US
+style='font-size:17.0pt;line-height:115%'>&lt;/span&gt;&lt;small&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22686;&#32908;&#39318;&#36873;&#65292;&#20302;&#33026;&#39640;&#34507;&#30333;&#65288;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>+22g</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34507;&#30333;&#65289;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/small&gt;&lt;/span&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;/label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;div class=&quot;item&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;input type=&quot;radio&quot; name=&quot;veg&quot; value=&quot;shrimp&quot;
+data-name=&quot;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#20937;&#25292;&#33756;</span><span lang=EN-US
+style='font-size:17.0pt;line-height:115%'>+</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34430;&#20161;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot; data-weight=&quot;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34092;&#33756;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>100g+</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#27204;&#27012;&#27833;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>5g+</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34430;&#20161;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>100g&quot;
+data-cal=&quot;170&quot; data-desc=&quot;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20302;&#33026;&#39640;&#34507;&#30333;&#65292;&#21475;&#24863;&#28165;&#29245;&#65288;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>+20g</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34507;&#30333;&#65289;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;span&gt;&lt;span class=&quot;food-name&quot;&gt;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20937;&#25292;&#33756;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> + </span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34430;&#20161;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> 100g&lt;/span&gt;&lt;span
+class=&quot;cal&quot;&gt;+100</span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%;font-family:SimSun'>&#22823;&#21345;</span><span lang=EN-US
+style='font-size:17.0pt;line-height:115%'>&lt;/span&gt;&lt;small&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20302;&#33026;&#39640;&#34507;&#30333;&#65292;&#21475;&#24863;&#28165;&#29245;&#65288;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>+20g</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34507;&#30333;&#65289;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/small&gt;&lt;/span&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;/label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;h2&gt;&#127840; </span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#30899;&#27700;&#31867;&#65288;&#20849;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>5</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#39033;&#65292;&#33267;&#23569;&#36873;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>3</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#39033;&#65292;&#25512;&#33616;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>3~4</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#39033;&#65289;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/h2&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;div class=&quot;item&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;input type=&quot;checkbox&quot; class=&quot;carb&quot; data-name=&quot;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#21335;&#29916;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot;
+data-weight=&quot;100g&quot; data-cal=&quot;23&quot; data-desc=&quot;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20302;&#21345;&#39640;&#32420;&#65292;&#25252;&#30524;&#25252;&#32932;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot; checked&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;span&gt;&lt;span class=&quot;food-name&quot;&gt;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#21335;&#29916;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> 100g&lt;/span&gt;&lt;span
+class=&quot;cal&quot;&gt;23</span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%;font-family:SimSun'>&#22823;&#21345;</span><span lang=EN-US
+style='font-size:17.0pt;line-height:115%'>&lt;/span&gt;&lt;small&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20302;&#21345;&#39640;&#32420;&#65292;&#25252;&#30524;&#25252;&#32932;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/small&gt;&lt;/span&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;/label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;div class=&quot;item&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;input type=&quot;checkbox&quot; class=&quot;carb&quot; data-name=&quot;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#32993;&#33821;&#21340;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot;
+data-weight=&quot;50g&quot; data-cal=&quot;20&quot; data-desc=&quot;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34917;&#20805;&#32500;&#29983;&#32032;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>A</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65288;&#38656;&#25645;&#37197;&#27833;&#33026;&#21560;&#25910;&#65289;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot; checked&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;span&gt;&lt;span class=&quot;food-name&quot;&gt;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#32993;&#33821;&#21340;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> 50g&lt;/span&gt;&lt;span
+class=&quot;cal&quot;&gt;20</span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%;font-family:SimSun'>&#22823;&#21345;</span><span lang=EN-US
+style='font-size:17.0pt;line-height:115%'>&lt;/span&gt;&lt;small&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34917;&#20805;&#32500;&#29983;&#32032;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>A</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65288;&#38656;&#25645;&#37197;&#27833;&#33026;&#21560;&#25910;&#65289;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/small&gt;&lt;/span&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;/label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;div class=&quot;item&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;input type=&quot;checkbox&quot; class=&quot;carb&quot; data-name=&quot;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#29577;&#31859;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot; data-weight=&quot;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#21322;&#26681;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>(50g)&quot;
+data-cal=&quot;55&quot; data-desc=&quot;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#31895;&#31918;&#20302;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>GI</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65292;&#31283;&#23450;&#34880;&#31958;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot; checked&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;span&gt;&lt;span class=&quot;food-name&quot;&gt;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#29577;&#31859;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%'> </span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#21322;&#26681;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>
+(50g)&lt;/span&gt;&lt;span class=&quot;cal&quot;&gt;55</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22823;&#21345;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/span&gt;&lt;small&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#31895;&#31918;&#20302;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>GI</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65292;&#31283;&#23450;&#34880;&#31958;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/small&gt;&lt;/span&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;/label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;div class=&quot;item&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;input type=&quot;checkbox&quot; class=&quot;carb&quot; data-name=&quot;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#32418;&#34223;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot; data-weight=&quot;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#21322;&#26681;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>(120g)&quot;
+data-cal=&quot;110&quot; data-desc=&quot;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22797;&#21512;&#30899;&#27700;&#65292;&#36890;&#20415;&#25511;&#31958;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;span&gt;&lt;span class=&quot;food-name&quot;&gt;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#32418;&#34223;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%'> </span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#21322;&#26681;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>
+(120g)&lt;/span&gt;&lt;span class=&quot;cal&quot;&gt;110</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22823;&#21345;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/span&gt;&lt;small&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22797;&#21512;&#30899;&#27700;&#65292;&#36890;&#20415;&#25511;&#31958;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/small&gt;&lt;/span&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;/label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;div class=&quot;item&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;input type=&quot;checkbox&quot; class=&quot;carb&quot; data-name=&quot;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20840;&#40614;&#39314;&#22836;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot; data-weight=&quot;1</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22359;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>(70g)&quot;
+data-cal=&quot;150&quot; data-desc=&quot;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#25166;&#23454;&#25179;&#39295;&#65292;&#23500;&#21547;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>B</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#26063;&#32500;&#29983;&#32032;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;span&gt;&lt;span class=&quot;food-name&quot;&gt;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20840;&#40614;&#39314;&#22836;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> 1</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22359;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>
+(70g)&lt;/span&gt;&lt;span class=&quot;cal&quot;&gt;150</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22823;&#21345;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/span&gt;&lt;small&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#25166;&#23454;&#25179;&#39295;&#65292;&#23500;&#21547;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>B</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#26063;&#32500;&#29983;&#32032;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/small&gt;&lt;/span&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;/label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;h2&gt;&#129372; </span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#33026;&#32938;&#31867;&#65288;&#20248;&#36136;&#33026;&#32938;&#65289;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/h2&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;div class=&quot;item&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;input type=&quot;checkbox&quot; class=&quot;food&quot; data-name=&quot;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22362;&#26524;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot; data-weight=&quot;5</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20010;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>(7g)&quot;
+data-cal=&quot;45&quot; data-desc=&quot;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20248;&#36136;&#33026;&#32938;&#65292;&#20419;&#36827;&#32993;&#33821;&#21340;&#32032;&#21644;&#32500;&#29983;&#32032;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>A</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#21560;&#25910;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot; checked&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>       
+&lt;span&gt;&lt;span class=&quot;food-name&quot;&gt;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22362;&#26524;&#65288;&#22914;&#27035;&#23376;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> 5</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20010;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> / 7g</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65289;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/span&gt;&lt;span
+class=&quot;cal&quot;&gt;45</span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%;font-family:SimSun'>&#22823;&#21345;</span><span lang=EN-US
+style='font-size:17.0pt;line-height:115%'>&lt;/span&gt;&lt;small&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20248;&#36136;&#33026;&#32938;&#65292;&#20419;&#36827;&#32993;&#33821;&#21340;&#32032;&#21644;&#32500;&#29983;&#32032;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>A</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#21560;&#25910;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/small&gt;&lt;/span&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;/label&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;div class=&quot;actions&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;button type=&quot;button&quot; class=&quot;primary&quot;
+onclick=&quot;generateOrder()&quot;&gt;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#29983;&#25104;&#25105;&#30340;&#26089;&#39184;&#35746;&#21333;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/button&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;button type=&quot;button&quot; class=&quot;secondary&quot;
+onclick=&quot;resetForm()&quot;&gt;</span><span lang=ZH-CN style='font-size:
+17.0pt;line-height:115%;font-family:SimSun'>&#28165;&#31354;&#37325;&#36873;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/button&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+&lt;/form&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+&lt;div id=&quot;result&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;h3&gt;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:115%;
+font-family:SimSun'>&#9989;</span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%'> </span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#20320;&#30340;&#35746;&#21333;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/h3&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;textarea id=&quot;resultText&quot; readonly&gt;&lt;/textarea&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;div class=&quot;actions&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+&lt;button type=&quot;button&quot; class=&quot;primary&quot;
+onclick=&quot;copyResult()&quot;&gt;</span><span lang=ZH-CN style='font-size:
+17.0pt;line-height:115%;font-family:SimSun'>&#22797;&#21046;&#32467;&#26524;&#21457;&#21040;&#32676;&#37324;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/button&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+&lt;div class=&quot;note&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&lt;strong&gt;&#128161; </span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%;font-family:SimSun'>&#32473;&#23478;&#20154;&#30340;&#28201;&#39336;&#25552;&#37266;&#65288;&#21507;&#39277;&#21069;&#24517;&#30475;&#65289;&#65306;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/strong&gt;&lt;br&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+1. &lt;strong&gt;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#30899;&#27700;&#36873;&#20960;&#39033;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/strong&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65306;&#26368;&#20302;&#36873;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>3</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#39033;&#65292;&#36873;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>4</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#39033;&#26368;&#23436;&#32654;&#65292;&#36873;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>5</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#39033;&#23646;&#20110;&#22823;&#32963;&#21475;&#25110;&#20307;&#21147;&#21171;&#21160;&#32773;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;br&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+2. &lt;strong&gt;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#22686;&#32908;&#38656;&#27714;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/strong&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65306;&#24819;&#38271;&#32908;&#32905;&#30340;&#23478;&#20154;&#65292;&#21153;&#24517;&#36873;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>2</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20010;&#34507;&#65292;&#24182;&#22312;&#20937;&#25292;&#33756;&#37324;&#21152;&#40481;&#32905;&#19997;&#25110;&#34430;&#20161;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;br&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+3. &lt;strong&gt;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#21507;&#39277;&#39034;&#24207;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/strong&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65306;&#20808;&#21507;&#34507;&#12289;&#22902;&#29141;&#40614;&#12289;&#32905;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>/</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34430;&#12289;&#22362;&#26524;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%'> </span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#10145;&#65039;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%'> </span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20877;&#21507;&#20937;&#25292;&#33756;&#12289;&#21335;&#29916;&#32993;&#33821;&#21340;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%'> </span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#10145;&#65039;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%'> </span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#26368;&#21518;&#21507;&#29577;&#31859;&#12289;&#32418;&#34223;&#12289;&#39314;&#22836;&#12290;&#36825;&#26679;&#21507;&#34880;&#31958;&#26368;&#31283;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;br&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+4. &lt;strong&gt;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#23450;&#26102;&#21507;</span><span lang=EN-US
+style='font-size:17.0pt;line-height:115%'>&lt;/strong&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65306;&#24314;&#35758;&#26089;&#19978;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> 7:00 - 8:30 </span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#21507;&#23436;&#65292;&#35268;&#24459;&#36827;&#39135;&#27604;&#38543;&#20415;&#21507;&#26356;&#20581;&#24247;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;br&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+5. &lt;strong&gt;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#21507;&#23436;&#25252;&#29702;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/strong&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65306;&#21507;&#23436;&#31435;&#21051;&#28165;&#27700;&#28465;&#21475;&#65292;&#29992;&#29273;&#32447;&#28165;&#29702;&#22622;&#29273;&#65288;&#32905;&#19997;&#12289;&#29577;&#31859;&#12289;&#32418;&#34223;&#12289;&#29141;&#40614;&#26497;&#26131;&#22622;&#29273;&#65289;&#65292;&#31561;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>30</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20998;&#38047;&#21518;&#20877;&#21047;&#29273;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;br&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+6. &lt;strong&gt;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#27604;&#20256;&#32479;&#26089;&#39184;&#22909;&#22312;&#21738;&#65311;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/strong&gt;&lt;br&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&amp;nbsp;&amp;nbsp;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>•</span><span lang=EN-US style='font-size:17.0pt;
+line-height:115%'> &lt;strong&gt;</span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%;font-family:SimSun'>&#27604;&#39314;&#22836;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/strong&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65306;&#39314;&#22836;&#26159;&#31934;&#21046;&#30899;&#27700;&#65292;&#21319;&#31958;&#24555;&#12289;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>10</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#28857;&#23601;&#39295;&#65307;&#36825;&#22871;&#26159;&#20302;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>GI</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22797;&#21512;&#30899;&#27700;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>+</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#39640;&#32420;&#32500;&#65292;&#34880;&#31958;&#24179;&#31283;&#65292;&#19968;&#19978;&#21320;&#19981;&#29359;&#22256;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;br&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&amp;nbsp;&amp;nbsp;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>•</span><span lang=EN-US style='font-size:17.0pt;
+line-height:115%'> &lt;strong&gt;</span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%;font-family:SimSun'>&#27604;&#29006;&#39290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/strong&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65306;&#29006;&#39290;&#39640;&#27833;&#39640;&#30416;&#65292;&#28909;&#37327;&#29190;&#34920;&#23481;&#26131;&#27700;&#32959;&#65307;&#36825;&#22871;&#21482;&#26377;&#20248;&#36136;&#33026;&#32938;&#65288;&#27204;&#27012;&#27833;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>+</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22362;&#26524;&#65289;&#65292;&#20302;&#33026;&#25511;&#21345;&#65292;&#21507;&#23436;&#36523;&#20307;&#27809;&#36127;&#25285;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;br&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&amp;nbsp;&amp;nbsp;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>•</span><span lang=EN-US style='font-size:17.0pt;
+line-height:115%'> &lt;strong&gt;</span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%;font-family:SimSun'>&#27604;&#19977;&#26126;&#27835;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/strong&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65306;&#19977;&#26126;&#27835;&#24120;&#26377;&#27801;&#25289;&#37233;&#12289;&#21152;&#24037;&#32905;&#65292;&#28909;&#37327;&#39640;&#20294;&#33829;&#20859;&#23494;&#24230;&#20302;&#65307;&#36825;&#22871;&#20840;&#26159;&#22825;&#28982;&#39135;&#26448;&#65292;&#34507;&#30333;&#36136;&#12289;&#32500;&#29983;&#32032;&#12289;&#33203;&#39135;&#32420;&#32500;&#20840;&#38754;&#32988;&#20986;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;br&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+7. &lt;strong&gt;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#23439;&#35266;&#33829;&#20859;&#32032;&#27604;&#20363;&#39044;&#20272;&#65288;&#20379;&#21442;&#32771;&#65289;&#65306;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/strong&gt;&lt;br&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&amp;nbsp;&amp;nbsp;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>•</span><span lang=EN-US style='font-size:17.0pt;
+line-height:115%'> &lt;strong&gt;</span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%;font-family:SimSun'>&#26085;&#24120;&#29256;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/strong&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65288;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>1</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20010;&#34507;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>+</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#29275;&#22902;&#29141;&#40614;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>+</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#36873;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>4</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#39033;&#30899;&#27700;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>+</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22522;&#30784;&#20937;&#25292;&#33756;&#65289;&#65306;&#24635;&#28909;&#37327;&#32422;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>665</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22823;&#21345;&#12290;&#30899;&#27700;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>50% / </span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34507;&#30333;&#36136;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>18% / </span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#33026;&#32938;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>32%</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;br&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+&amp;nbsp;&amp;nbsp;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>•</span><span lang=EN-US style='font-size:17.0pt;
+line-height:115%'> &lt;strong&gt;</span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%;font-family:SimSun'>&#22686;&#32908;&#29256;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/strong&gt;</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65288;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>2</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20010;&#34507;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>+</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#29275;&#22902;&#29141;&#40614;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>+</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20937;&#25292;&#33756;&#21152;&#32905;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>/</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34430;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>+</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#36873;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>3</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#39033;&#30899;&#27700;&#65289;&#65306;&#24635;&#28909;&#37327;&#32422;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>850</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22823;&#21345;&#12290;&#30899;&#27700;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>45% / </span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#34507;&#30333;&#36136;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>25% / </span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#33026;&#32938;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>30%</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65288;&#34507;&#30333;&#36136;&#32422;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>50g</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65292;&#23436;&#20840;&#28385;&#36275;&#22686;&#32908;&#38656;&#27714;&#65289;&#12290;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/div&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;script&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>function
+generateOrder() {</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+const name = document.getElementById('name').value.trim() || '</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#26576;&#20154;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>';</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+const items = [];</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+let totalCal = 0;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+// 1. </span><span lang=ZH-CN style='font-size:17.0pt;line-height:115%;
+font-family:SimSun'>&#40481;&#34507;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+const egg = document.querySelector('input[name=&quot;egg&quot;]:checked');</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+if (egg) {</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+items.push(`- </span><span lang=ZH-CN style='font-size:17.0pt;line-height:115%;
+font-family:SimSun'>&#40481;&#34507;</span><span lang=EN-US style='font-size:
+17.0pt;line-height:115%'> ${egg.dataset.weight}</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65306;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>${egg.dataset.cal}</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22823;&#21345;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>${egg.dataset.desc}`);</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+totalCal += parseInt(egg.dataset.cal);</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+}</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+// 2. </span><span lang=ZH-CN style='font-size:17.0pt;line-height:115%;
+font-family:SimSun'>&#29275;&#22902;&#29141;&#40614;&#31909;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> &amp; </span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22362;&#26524;&#65288;&#36890;&#36807;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'> class=&quot;food&quot; </span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#32479;&#19968;&#22788;&#29702;&#65289;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+document.querySelectorAll('input.food:checked').forEach(cb =&gt; {</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+items.push(`- ${cb.dataset.name} ${cb.dataset.weight}</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65306;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>${cb.dataset.cal}</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22823;&#21345;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>${cb.dataset.desc}`);</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+totalCal += parseInt(cb.dataset.cal);</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+});</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+// 3. </span><span lang=ZH-CN style='font-size:17.0pt;line-height:115%;
+font-family:SimSun'>&#34092;&#33756;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+const veg = document.querySelector('input[name=&quot;veg&quot;]:checked');</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+if (veg) {</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+items.push(`- ${veg.dataset.name} ${veg.dataset.weight}</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65306;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>${veg.dataset.cal}</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22823;&#21345;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>${veg.dataset.desc}`);</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+totalCal += parseInt(veg.dataset.cal);</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+}</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+// 4. </span><span lang=ZH-CN style='font-size:17.0pt;line-height:115%;
+font-family:SimSun'>&#30899;&#27700;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+const carbs = document.querySelectorAll('input.carb:checked');</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+if (carbs.length &lt; 3) {</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+alert(&quot;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:115%;
+font-family:SimSun'>&#9888;&#65039;</span><span lang=ZH-CN style='font-size:
+17.0pt;line-height:115%'> </span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%;font-family:SimSun'>&#30899;&#27700;&#31867;&#26368;&#23569;&#35201;&#36873;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>3</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#39033;&#21734;&#65281;&#35831;&#20877;&#36873;&#20960;&#39033;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot;);</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+return;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+}</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+if (carbs.length &gt; 4) {</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+if (!confirm(&quot;</span><span lang=ZH-CN style='font-size:17.0pt;line-height:
+115%;font-family:SimSun'>&#9888;&#65039;</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%'> </span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20320;&#36873;&#20102;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>5</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#39033;&#30899;&#27700;&#65292;&#28909;&#37327;&#21644;&#30899;&#27700;&#20250;&#20559;&#39640;&#65292;&#23481;&#26131;&#29359;&#22256;&#12290;&#30830;&#23450;&#35201;&#20840;&#36873;&#21527;&#65311;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>&quot;)) {</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+return;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+}</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+}</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+carbs.forEach(cb =&gt; {</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+items.push(`- ${cb.dataset.name} ${cb.dataset.weight}</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65306;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>${cb.dataset.cal}</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22823;&#21345;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>${cb.dataset.desc}`);</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+totalCal += parseInt(cb.dataset.cal);</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+});</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+const text = `&#128226; </span><span lang=ZH-CN style='font-size:17.0pt;
+line-height:115%;font-family:SimSun'>&#26089;&#39184;&#35746;&#21333;&#65288;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>${name}</span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#65289;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>\n${items.join('\n')}\n\n&#128293;
+</span><span lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:
+SimSun'>&#24635;&#28909;&#37327;&#32422;&#65306;</span><span lang=EN-US
+style='font-size:17.0pt;line-height:115%'>${totalCal} </span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#22823;&#21345;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>\n\n&#128161; </span><span
+lang=ZH-CN style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#25552;&#37266;&#65306;&#20808;&#21507;&#34507;&#22902;&#32905;&#22362;&#26524;&#65292;&#20877;&#21507;&#34092;&#33756;&#31895;&#31918;&#65292;&#26368;&#21518;&#21507;&#20027;&#39135;&#65307;&#39277;&#21518;&#28465;&#21475;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>+</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#29273;&#32447;&#65292;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>30</span><span lang=ZH-CN
+style='font-size:17.0pt;line-height:115%;font-family:SimSun'>&#20998;&#38047;&#21518;&#20877;&#21047;&#29273;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>`;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+document.getElementById('resultText').value = text;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+document.getElementById('result').style.display = 'block';</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+document.getElementById('result').scrollIntoView({ behavior: 'smooth' });</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>}</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>function
+copyResult() {</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+const text = document.getElementById('resultText').value;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+if (navigator.clipboard &amp;&amp; navigator.clipboard.writeText) {</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+navigator.clipboard.writeText(text).then(() =&gt; {</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+alert('</span><span lang=ZH-CN style='font-size:17.0pt;line-height:115%;
+font-family:SimSun'>&#24050;&#22797;&#21046;&#65281;&#35831;&#31896;&#36148;&#21040;&#24494;&#20449;&#32676;&#21457;&#22238;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>');</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+}).catch(() =&gt; {</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>     
+fallbackCopy();</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+});</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+} else {</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>   
+fallbackCopy();</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+}</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>}</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>function
+fallbackCopy() {</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+const textarea = document.getElementById('resultText');</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+textarea.select();</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+document.execCommand('copy');</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+alert('</span><span lang=ZH-CN style='font-size:17.0pt;line-height:115%;
+font-family:SimSun'>&#24050;&#22797;&#21046;&#65281;&#35831;&#31896;&#36148;&#21040;&#24494;&#20449;&#32676;&#21457;&#22238;&#12290;</span><span
+lang=EN-US style='font-size:17.0pt;line-height:115%'>');</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>}</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>function
+resetForm() {</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+document.getElementById('breakfastForm').reset();</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+document.getElementById('name').value = '';</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'> 
+document.getElementById('result').style.display = 'none';</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>}</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/script&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/body&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:17.0pt;line-height:115%'>&lt;/html&gt;</span></p>
+
+</div>
+
+</body>
+
+</html>
